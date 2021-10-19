@@ -255,14 +255,14 @@ class student implements user{
         return this.sName;
     }
     public void lecturematerial(){
-        // @Override
+        @Override
         
     }
     public void assessment(){
-
+        @Override
     }
     public void assignment(){
-
+        @Override
     }
 }
 class instructor implements user{
@@ -277,7 +277,13 @@ class instructor implements user{
         return this.iName;
     }
     public void lecturematerial(){
-
+        @Override
+    }
+    public void assessment(){
+        @Override
+    }
+    public void assignment(){
+        @Override
     }
 }
 
